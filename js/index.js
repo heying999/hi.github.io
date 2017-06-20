@@ -9,7 +9,7 @@ var fontStr = "bold 70pt Helvetica Neue, Helvetica, Arial, sans-serif";
 ctx.font = fontStr;
 ctx.textAlign = "left";
 c.width = ctx.measureText(str).width;
-c.height = 70; // Set to font size
+c.height = 65; // Set to font size
 
 var whitePixels = [];
 var points = [];
