@@ -2,9 +2,9 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var mask;
 
-var pointCount = 510;
+var pointCount = 430;
 var str = "Hi* human.";
-var fontStr = "bold 70pt Helvetica Neue, Helvetica, Arial, sans-serif";
+var fontStr = "bold 63pt Helvetica Neue, Helvetica, Arial, sans-serif";
 
 ctx.font = fontStr;
 ctx.textAlign = "left";
