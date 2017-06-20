@@ -2,14 +2,14 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var mask;
 
-var pointCount = 490;
+var pointCount = 510;
 var str = "Hi* human.";
 var fontStr = "bold 70pt Helvetica Neue, Helvetica, Arial, sans-serif";
 
 ctx.font = fontStr;
 ctx.textAlign = "left";
 c.width = ctx.measureText(str).width;
-c.height = 100; // Set to font size
+c.height = 70; // Set to font size
 
 var whitePixels = [];
 var points = [];
